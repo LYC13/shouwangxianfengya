@@ -1,0 +1,200 @@
+        * {
+            margin: 0;
+            padding: 0
+        }
+		.head{
+		    width: 100%;
+		    height: 100px;
+		    background-color: gray;
+		    position: relative;
+		}
+		.head > p{
+		    float: left;
+		}
+		.head_p1{
+		    font-size: 30px;
+		    color: gray;
+		    border: 1px solid white;
+		    border-radius: 15%;
+		    background-color: white;
+		    width: 70px;
+		    height: 55px;
+		    padding-left: 2px;
+		    position: absolute;
+		    left: 150px;
+		    top:20px;
+		}
+		.head_p2{
+		    font-size: 40px;
+		    color: white;
+		    font-weight: bold;
+		    position: absolute;
+		    left: 230px;
+		    top:20px;
+		    margin-top: -5px;
+		}
+		.link1 > a{
+		    font-size: 20px;
+		    color: white;
+		    margin-left: 60px;
+			text-decoration: none;
+		}
+		.link1{
+		    padding-top: 30px;
+		    padding-left: 350px;
+		}
+		.icon > div{
+		    float: left;
+		}
+		i{
+		    color: white;
+		}
+		i:hover{
+		    cursor:pointer
+		}
+		.icon{
+		    position: absolute;
+		    left: 80%;
+		    bottom: 35px;
+		}
+		.icon > div{
+		    margin-left: 50px;
+		}
+        .box {
+            width: 500px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+            padding: 5px;
+ 
+        }
+        .clear:after{
+        content: '';
+        display: block;
+        height: 0;
+        clear: both;
+        }
+        /* footer样式 */
+        .footer {
+            height: 350px;
+            width: 2000px;
+            position: fixed;
+            padding-top: 18px;
+            background: rgba(58, 58, 58, 1);
+            text-align: center;
+        }
+
+        .footer h4 {
+            padding: 0px 0 0px;
+            font-size: 36px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+        }
+
+        .footer ul {
+            display: inline-block;
+        }
+
+        .footer li {
+            float: center;
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            padding: 0 12px;
+            border-right: 2px solid rgba(255, 255, 255, 1);
+        }
+
+        .footer li.last {
+            border: none;
+        }
+
+        .footer p {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            margin-top: 20px;
+        }
+        .clear:after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+        }
+        .inner{
+            width: 500px;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+        }
+        .inner img{
+            width: 500px;
+            height: 300px;
+            vertical-align: top
+        }
+        ul {
+            width: 1000%;
+            position: absolute;
+            list-style: none;
+            text-align: center;
+        }
+        .inner li{
+            float: left;
+ 
+        }
+ 
+        ol {
+            position: absolute;
+            height: 20px;
+            right: 20px;
+            bottom: 20px;
+            text-align: center;
+            padding: 5px;
+        }
+        ol li{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            background-color: #fff;
+            margin: 5px;
+            cursor: pointer;
+ 
+        }
+        ol .current{
+            background-color: red;
+        }
+        #arr{
+            display: none;
+        }
+        #arr span{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            margin-top: -20px;
+            background: #fff;
+            cursor: pointer;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            font-family: '黑体';
+            font-size: 30px;
+            color: #000;
+            opacity: 0.5;
+            border: 1px solid #fff;
+        }
+        #arr #right {
+            right: 5px;
+            left: auto;
+        }
+        .time1{
+            width: 500px;
+            height: 100px;
+            border: 15px solid #ccc;
+            margin: 10px auto;
+            padding: 5px;
+            font-size:30px;
+            color: grey;
+
+        }
